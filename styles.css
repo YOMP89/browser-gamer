@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1b1b1b;
+    color: #ffffff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0f0f0f;
+    padding: 10px;
+    border-bottom: 3px solid #ff1b6b;
+}
+
+.logo h1 {
+    color: #ff1b6b;
+    font-family: 'Arial Black', sans-serif;
+}
+
+.search-bar {
+    flex: 1;
+    margin-left: 20px;
+    display: flex;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #ff1b6b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.tabs {
+    display: flex;
+    gap: 10px;
+}
+
+.tab {
+    background-color: #333333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.tab.active {
+    background-color: #ff1b6b;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 70vh;
+    border: none;
+    background-color: #0f0f0f;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0f0f0f;
+    color: #888888;
+}
+
+.footer p {
+    margin: 0;
+}
