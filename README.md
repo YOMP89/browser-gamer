@@ -1,5 +1,7 @@
 # GX Browser Clone - Navegador Gamer
 
+![Pantalazo del proyecto](pantallazo.jpg)
+
 Este proyecto es una recreación simple y funcional de un navegador web inspirado en **Opera GX**, el cual tiene una estética gamer. Incluye una barra de búsqueda funcional, varias pestañas populares relacionadas con juegos y plataformas de streaming, y un diseño con colores oscuros y detalles en neón. Este navegador ficticio permite navegar por la web o buscar información a través de un iframe.
 
 ## Características
